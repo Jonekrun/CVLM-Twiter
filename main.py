@@ -92,8 +92,8 @@ def Load_data(csv_file_path, desc_file_path):
         for img_id in image_ids:
             img_id = img_id + '.jpg'
             if img_id in image_descriptions:
-                # image_descriptions_text.append(image_descriptions[img_id])
-                image_descriptions_text.append("No description available")
+                image_descriptions_text.append(image_descriptions[img_id])
+                # image_descriptions_text.append("No description available")
             else:
                 image_descriptions_text.append("No description available")
         
